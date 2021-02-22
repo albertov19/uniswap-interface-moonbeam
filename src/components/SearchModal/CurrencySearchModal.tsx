@@ -1,4 +1,4 @@
-import { Currency } from 'moonbeamswap/sdk'
+import { Currency } from 'moonbeamswap'
 import React, { useCallback, useEffect, useState } from 'react'
 import ReactGA from 'react-ga'
 import useLast from '../../hooks/useLast'

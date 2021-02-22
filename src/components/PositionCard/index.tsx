@@ -1,4 +1,4 @@
-import { JSBI, Pair, Percent } from 'moonbeamswap/sdk'
+import { JSBI, Pair, Percent } from 'moonbeamswap'
 import { darken } from 'polished'
 import React, { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'react-feather'

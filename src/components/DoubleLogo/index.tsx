@@ -1,4 +1,4 @@
-import { Currency } from 'moonbeamswap/sdk'
+import { Currency } from 'moonbeamswap'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

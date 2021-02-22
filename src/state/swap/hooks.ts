@@ -1,6 +1,6 @@
 import useENS from '../../hooks/useENS'
 import { parseUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount, DEV, JSBI, Token, TokenAmount, Trade } from 'moonbeamswap/sdk'
+import { Currency, CurrencyAmount, DEV, JSBI, Token, TokenAmount, Trade } from 'moonbeamswap'
 import { ParsedQs } from 'qs'
 import { useCallback, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

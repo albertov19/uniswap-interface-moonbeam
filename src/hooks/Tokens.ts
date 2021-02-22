@@ -1,5 +1,5 @@
 import { parseBytes32String } from '@ethersproject/strings'
-import { Currency, DEV, Token, currencyEquals } from 'moonbeamswap/sdk'
+import { Currency, DEV, Token, currencyEquals } from 'moonbeamswap'
 import { useMemo } from 'react'
 import { useSelectedTokenList } from '../state/lists/hooks'
 import { NEVER_RELOAD, useSingleCallResult } from '../state/multicall/hooks'

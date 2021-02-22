@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom'
-import { Token, TokenAmount, WDEV } from 'moonbeamswap/sdk'
+import { Token, TokenAmount, WDEV } from 'moonbeamswap'
 
 import { Text } from 'rebass'
 import { AutoColumn } from '../Column'

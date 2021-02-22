@@ -1,4 +1,4 @@
-import { ChainId } from 'moonbeamswap/sdk'
+import { ChainId } from 'moonbeamswap'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {

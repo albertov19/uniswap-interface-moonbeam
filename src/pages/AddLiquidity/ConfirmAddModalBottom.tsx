@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'moonbeamswap/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'moonbeamswap'
 import React from 'react'
 import { Text } from 'rebass'
 import { ButtonPrimary } from '../../components/Button'

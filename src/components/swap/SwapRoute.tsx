@@ -1,4 +1,4 @@
-import { Trade } from 'moonbeamswap/sdk'
+import { Trade } from 'moonbeamswap'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex } from 'rebass'

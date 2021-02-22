@@ -1,4 +1,4 @@
-import { Currency, DEV, Token } from 'moonbeamswap/sdk'
+import { Currency, DEV, Token } from 'moonbeamswap'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'moonbeamswap/sdk'
+import { Token, TokenAmount } from 'moonbeamswap'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

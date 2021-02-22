@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit'
-import { ChainId } from 'moonbeamswap/sdk'
+import { ChainId } from 'moonbeamswap'
 
 export interface SerializableTransactionReceipt {
   to: string

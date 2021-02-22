@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, currencyEquals, DEV, Token } from 'moonbeamswap/sdk'
+import { Currency, CurrencyAmount, currencyEquals, DEV, Token } from 'moonbeamswap'
 import React, { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
 import { FixedSizeList } from 'react-window'
 import { Text } from 'rebass'

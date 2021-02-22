@@ -1,4 +1,4 @@
-import { ChainId } from 'moonbeamswap/sdk'
+import { ChainId } from 'moonbeamswap'
 import { createStore, Store } from 'redux'
 import { addPopup, removePopup, toggleSettingsMenu, toggleWalletModal, updateBlockNumber } from './actions'
 import reducer, { ApplicationState } from './reducer'

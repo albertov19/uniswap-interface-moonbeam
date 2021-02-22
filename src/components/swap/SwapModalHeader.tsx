@@ -1,4 +1,4 @@
-import { Trade, TradeType } from 'moonbeamswap/sdk'
+import { Trade, TradeType } from 'moonbeamswap'
 import React, { useContext, useMemo } from 'react'
 import { ArrowDown, AlertTriangle } from 'react-feather'
 import { Text } from 'rebass'

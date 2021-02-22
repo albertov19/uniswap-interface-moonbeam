@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WDEV } from 'moonbeamswap/sdk'
+import { ChainId, JSBI, Percent, Token, WDEV } from 'moonbeamswap'
 import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
 
 import { injected } from '../connectors'

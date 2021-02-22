@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from 'moonbeamswap/sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from 'moonbeamswap'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

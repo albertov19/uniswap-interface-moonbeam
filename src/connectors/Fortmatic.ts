@@ -1,4 +1,4 @@
-import { ChainId } from 'moonbeamswap/sdk'
+import { ChainId } from 'moonbeamswap'
 import { FortmaticConnector as FortmaticConnectorCore } from '@sushi-web3-react/fortmatic-connector'
 
 export const OVERLAY_READY = 'OVERLAY_READY'

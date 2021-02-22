@@ -1,5 +1,5 @@
 import React from 'react'
-import { Price } from 'moonbeamswap/sdk'
+import { Price } from 'moonbeamswap'
 import { useContext } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

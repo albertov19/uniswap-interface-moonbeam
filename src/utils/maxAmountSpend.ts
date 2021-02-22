@@ -1,4 +1,4 @@
-import { CurrencyAmount, DEV, JSBI } from 'moonbeamswap/sdk'
+import { CurrencyAmount, DEV, JSBI } from 'moonbeamswap'
 import { MIN_ETH } from '../constants'
 
 /**

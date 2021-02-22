@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'moonbeamswap/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'moonbeamswap'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

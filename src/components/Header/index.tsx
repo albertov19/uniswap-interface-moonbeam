@@ -1,4 +1,4 @@
-import { ChainId } from 'moonbeamswap/sdk'
+import { ChainId } from 'moonbeamswap'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'
