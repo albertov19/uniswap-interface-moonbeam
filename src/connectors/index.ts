@@ -1,9 +1,8 @@
 import { Web3Provider } from '@ethersproject/providers'
-import { InjectedConnector } from '@sushi-web3-react/injected-connector'
-import { WalletConnectConnector } from '@sushi-web3-react/walletconnect-connector'
-import { WalletLinkConnector } from '@sushi-web3-react/walletlink-connector'
-import { PortisConnector } from '@sushi-web3-react/portis-connector'
-import { LatticeConnector } from '@sushi-web3-react/lattice-connector'
+import { InjectedConnector } from '@web3-react/injected-connector'
+import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
+import { WalletLinkConnector } from '@web3-react/walletlink-connector'
+import { PortisConnector } from '@web3-react/portis-connector'
 
 import { FortmaticConnector } from './Fortmatic'
 import { NetworkConnector } from './NetworkConnector'
@@ -40,13 +39,6 @@ export const walletconnect = new WalletConnectConnector({
   bridge: 'https://bridge.walletconnect.org',
   qrcode: true,
   pollingInterval: 15000
-})
-
-// mainnet only
-export const lattice = new LatticeConnector({
-  chainId: NETWORK_CHAIN_ID,
-  url: NETWORK_URL,
-  appName: 'MOONBASEDEX'
 })
 
 // mainnet only

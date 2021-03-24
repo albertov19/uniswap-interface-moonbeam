@@ -240,6 +240,3 @@ export default function FullPositionCard({ pair, border }: PositionCardProps) {
     </HoverCard>
   )
 }
-
-//https://sushiswap.vision/pair/${pair.liquidityToken.address}
-//instaed of .....

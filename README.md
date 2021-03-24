@@ -18,16 +18,22 @@ If you use the [following repository](https://github.com/albertov19/uniswap-cont
 
 ## Moonbase Alpha Addresses
 
+To make the interface work with your Moonbase Alpha deployment, you need to modify the following files:
+
+- Multicall Address: `./src/constants/multicall/index.ts`
+- Router Address: `./src/constants/index.ts`
+- Factory/Router Address: `./src/state/swap/hooks.ts`
+
 On Moonbase Alpha, these are the following addresses:
 
 ```
-      "WETH": "0xFCd5cAB5ce3cA5089fD6c4a5072626037E9746EA",
-      "Factory": "0x8695A81b7569681487b62c5A47200c7165bFB95b",
-      "Router": "0xDb11bac4B2958958beBA7270A5Fe748687d8f1E2",
-      "multicall": "0xD7bA481DE7fB53A7a29641c43232B09e5D9CAe7b",
+      "WETH": "0x1c94B4e46D35c27Ed241c8e9E2c91a7FB443CEdc",
+      "Factory": "0x3584446E08A4433f3b57d0D53A4338A282fB570D",
+      "Router": "0x56a82ED340bB2CFa87777b1C42adE7F687A2196a",
+      "multicall": "0xE3701304F4d224B738Dc7a22f216884B815aef12",
       "init_code_hash": "0x01429e880a7972ebfbba904a5bbe32a816e78273e4b38ffa6bdeaebce8adba7c",
-      "tok1": "0x2C72DCFD653CF2D9772e3956aC4dFde12bc3bbA9",
-      "tok2": "0x83FB0093a7e8Acd7D30153348dFD153a3Db1A736"
+      "tok1": "0x825458b871FC6582d94c6d2BCe887897DFD9EDA2",
+      "tok2": "0xF8f525327D199F340D60d4b3ee847B5d49a28E3C"
 ```
 
 ## Build

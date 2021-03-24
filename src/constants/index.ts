@@ -1,12 +1,12 @@
 import { ChainId, JSBI, Percent, Token, WDEV } from 'moonbeamswap'
-import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
+import { AbstractConnector } from '@web3-react/abstract-connector'
+import { routerv2 } from '../moonbase_address.json'
 
 import { injected } from '../connectors'
 //fortmatic, portis, walletconnect, walletlink, lattice
-//export const ROUTER_ADDRESS = '0xDb11bac4B2958958beBA7270A5Fe748687d8f1E2'
 export const ROUTER_ADDRESS: { [key: string]: string } = {
   [ChainId.STANDALONE]: '0x42e2EE7Ba8975c473157634Ac2AF4098190fc741',
-  [ChainId.MOONBASE]: '0xeD1DfC5F3a589CfC4E8B91C1fbfC18FC6699Fbde'
+  [ChainId.MOONBASE]: routerv2
 }
 
 // a list of tokens by chain
