@@ -115,6 +115,7 @@ const BalanceText = styled(Text)`
 const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.MAINNET]: null,
   [ChainId.STANDALONE]: 'Moonbase Standalone',
+  [ChainId.MOONROCK]: 'Moonrock Rococo',
   [ChainId.MOONBASE]: 'Moonbase Alpha'
 }
 
